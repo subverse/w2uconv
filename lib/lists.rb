@@ -16,7 +16,7 @@ module Lists
   # unicode-hash [wylie=>unicode]
   # tuc(arg:string)::unicode
   def tuc(arg)
-    h = Hash.[]("."=>"&#x0F0B;", "|"=>"&#x0F0D;", ";"=>"&#x0F14;", ""=>"",
+    h = Hash.[]("."=>"&#x0F0B;", "/"=>"&#x0F0D;", ";"=>"&#x0F14;", ""=>"",
       "ka"=>"&#x0F40;", "kha"=>"&#x0F41;", "ga"=>"&#x0F42;", "nga"=>"&#x0F44;",
       "ca"=>"&#x0F45;", "cha"=>"&#x0F46;", "ja"=>"&#x0F47;", "nya"=>"&#x0F49;",
       "ta"=>"&#x0F4F;", "tha"=>"&#x0F50;", "da"=>"&#x0F51;", "na"=>"&#x0F53;",

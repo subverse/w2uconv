@@ -15,15 +15,15 @@ examples
 
 shad
 ====
-Attach | to a wylie sylable to create a shad.
-If | is separated from a wylie sylable by a whitespace the tsheg will not be removed.
-The double shad can be created this way.  
+Attach / to a wylie sylable to create a shad.
+If / is separated from a wylie sylable by a whitespace the tsheg will not be removed.
+The double shad can be created this way.
 
 
 w2uconv_helper
 ==============
-The helper provides a basic method to display tibetan glyphs in a view. 
-Run rake in the /plugins/w2uconv directory to copy the w2uconv_helper.rb into the helpers directory of your rails project. 
+The helper provides a basic method to display tibetan glyphs in a view.
+Run rake in the /plugins/w2uconv directory to copy the w2uconv_helper.rb into the helpers directory of your rails project.
 
 
 license

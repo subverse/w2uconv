@@ -3,28 +3,35 @@ w2uconv - wylie to unicode converter
 
 
 description
------------
+===========
 Converts a wylie-string to its corresponding set of tibetan ucs entitiy code values (range U+0FF to U+FFF).
 
 
 examples
---------
+========
 * w2uconv_demo on github
 * The tibetan-german dictionary (www.tdwb.org) uses the plugin to display tibetan glyphes.
 
 
+shad
+====
+Attach | to a wylie sylable to create a shad.
+If | is separated from a wylie sylable by a whitespace the tsheg will not be removed.
+The double shad can be created this way.  
+
+
 w2uconv_helper
---------------
+==============
 The helper provides a basic method to display tibetan glyphs in a view. 
 Run rake in the /plugins/w2uconv directory to copy the w2uconv_helper.rb into the helpers directory of your rails project. 
 
 
 license
--------
-Copyright (c) 2010 [daniel burgos, tdwb.org], released under the MIT license
+=======
+Released under the MIT license
 
 
 contact
--------
+=======
 subverse@gmx.net
 tdwb.info@ymail.com

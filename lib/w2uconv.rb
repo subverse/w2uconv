@@ -71,18 +71,24 @@ module W2uconv
     erg = pre + root + suffix + suffix2 + genitiv
 
     if erg != ""
-      if shad
-        if has_shad_result.at(1)
-          erg = erg + Lists.tuc(".")
-          erg = erg + Lists.tuc("/")
-        else
-          if not has_shad_result.at(2)
-            erg = erg + Lists.tuc("/")
-          end
-        end
-      else
-        erg = erg + Lists.tuc(".")
-      end #shad
+#      if erg != Lists.tuc("|")
+#        if erg != Lists.tuc(";")
+#          if erg != Lists.tuc(".")
+            if shad
+              if has_shad_result.at(1)
+                erg = erg + Lists.tuc(".")
+                erg = erg + Lists.tuc("/")
+              else
+                if not has_shad_result.at(2)
+                  erg = erg + Lists.tuc("/")
+                end
+              end
+            else
+              erg = erg + Lists.tuc(".")
+            end #shad
+#          end
+#        end
+#      end
     end
 
     return erg
